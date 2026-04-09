@@ -8,8 +8,8 @@ def deep_sorted_help(x:any)->any:
     except TypeError:
         return
     for i in x:
-        deep_sorted(i)
-    return x.sort()
+        deep_sorted_help(i)
+    return sorted(x)
 
 
 
