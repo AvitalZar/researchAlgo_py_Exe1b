@@ -1,6 +1,6 @@
 # I shouldn't sort the structure, only write it sorted.
 def deep_sorted(x:any)->str:
-    return (str(sorted(i)) for i in x)
+    return "".join(str(sorted(i)) for i in x)
 
 
 
