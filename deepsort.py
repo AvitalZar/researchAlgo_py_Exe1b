@@ -1,3 +1,4 @@
+# it's just that if I'd try string the input within the recursion it would sort everything in alephbeitic order. I think.
 def deep_sorted(x:any)->str:
     return str(deep_sorted_help(x))
 
